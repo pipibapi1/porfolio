@@ -1,0 +1,31 @@
+{
+  "name": "personal-info",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "start:dev": "nodemon ./bin/www",
+    "migration:create": "npx sequelize-cli migration:create --config src/database/config/config.json --migrations-path src/database/migrations --seeders-path src/database/seeders --models-path src/database/models",
+    "migration-model:generate": "npx sequelize-cli model:generate --config src/database/config/config.json --migrations-path src/database/migrations --seeders-path src/database/seeders --models-path src/database/models",
+    "migration:run": "npx sequelize-cli db:migrate --config src/database/config/config.json --migrations-path src/database/migrations --seeders-path src/database/seeders --models-path src/database/models"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "express-favicon": "^2.0.1",
+    "http-errors": "~1.6.3",
+    "jade": "^1.11.0",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "pug": "^3.0.2",
+    "sequelize": "^6.21.4",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
+  }
+}

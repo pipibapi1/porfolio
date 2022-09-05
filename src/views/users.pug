@@ -1,0 +1,9 @@
+doctype html 
+html
+    head 
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body 
+        h1 User List using Jade engine
+        ul
+        each item in userList
+            li=item.name

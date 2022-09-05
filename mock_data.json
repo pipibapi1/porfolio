@@ -1,0 +1,94 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "Restaurant POS System 2.0 UI",
+            "description":"This is the UI of a Fastfood Restaurant, which helps customers order food and beverage without communicating with staffs",
+            "technologies":[
+                "ReactJs", 
+                "NodeJs",
+                "ExpressJs", 
+                "MongoDB Atlas"],
+            "live_link":"https://restaurant-menu-ui-pos.netlify.app/",
+            "github_link":"https://github.com/pipibapi1/Restaurant-POS-Sytem-2.0",
+            "image_urls":[
+                {"url":"https://i.im.ge/2022/09/04/Og7AsD.restaurant-pos-2-0-pic1.png",
+                "landing":true},
+                {"url":"https://i.im.ge/2022/09/04/Og7AsD.restaurant-pos-2-0-pic1.png",
+                "landing":false},
+                {"url":"https://i.im.ge/2022/09/04/Og7Ct4.restaurant-pos-2-0-pic2.png",
+                "landing":false},
+                {"url":"https://i.im.ge/2022/09/04/Og7EzC.restaurant-pos-2-0-pic3.png",
+                "landing":false}
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "La Fashionale Shopping System",
+            "description":"This is a website where customer can buy their clothes through online payment",
+            "technologies":[
+                "ReactJs", 
+                "NodeJs",
+                "ExpressJs", 
+                "MongoDB Atlas"],
+            "live_link":"https://la-fashionale-main.netlify.app/",
+            "github_link":"https://github.com/pipibapi1/Fashion-App",
+            "image_urls":[
+                {"url":"https://i.im.ge/2022/09/04/Og7PYM.la-fashionale-shopping-system-pic1.png",
+                "landing":true},
+                {"url":"https://i.im.ge/2022/09/04/Og7PYM.la-fashionale-shopping-system-pic1.png",
+                "landing":false},
+                {"url":"https://i.im.ge/2022/09/04/Og7NUh.la-fashionale-shopping-system-pic2.png",
+                "landing":false},
+                {"url":"https://i.im.ge/2022/09/04/Og7t4Y.la-fashionale-shopping-system-pic3.png",
+                "landing":false}
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "La Fashionale Clerk Workspace",
+            "description":"A working space for Clerk of La Fashionale, clerks can receive and manage customer's orders",
+            "technologies":[
+                "ReactJs", 
+                "NodeJs",
+                "ExpressJs", 
+                "MongoDB Atlas"],
+            "live_link":"https://la-fashionale-clerk-workspace.netlify.app/",
+            "github_link":"https://github.com/pipibapi1/Fashion-App",
+            "image_urls":[
+                {"url":"https://i.im.ge/2022/09/04/Og7hqz.la-fashionale-clerk-workspace-pic1.png",
+                "landing":true},
+                {"url":"https://i.im.ge/2022/09/04/Og7hqz.la-fashionale-clerk-workspace-pic1.png",
+                "landing":false},
+                {"url":"https://i.im.ge/2022/09/04/Og7it6.la-fashionale-clerk-workspace-pic2.png",
+                "landing":false},
+                {"url":"https://i.im.ge/2022/09/04/Og70zF.la-fashionale-clerk-workspace-pic3.png",
+                "landing":false}
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "La Fashionale Manager Workspace",
+            "description":"A working space for Manager of La Fashionale.Manager can manage all products of the system, clerks' accounts and revenue",
+            "technologies":[
+                "ReactJs", 
+                "NodeJs",
+                "ExpressJs", 
+                "MongoDB Atlas"],
+            "live_link":"https://la-fashionale-manager-workspace.netlify.app/",
+            "github_link":"https://github.com/pipibapi1/Fashion-App",
+            "image_urls":[
+                {"url":"https://i.im.ge/2022/09/04/Og7L4S.la-fashionale-manager-workspace-pic1-png.png",
+                "landing":true},
+                {"url":"https://i.im.ge/2022/09/04/Og7L4S.la-fashionale-manager-workspace-pic1-png.png",
+                "landing":false},
+                {"url":"https://i.im.ge/2022/09/04/Og79FK.la-fashionale-manager-workspace-pic2-png.png",
+                "landing":false},
+                {"url":"https://i.im.ge/2022/09/04/Og7mWX.la-fashionale-manager-workspace-pic3-png.png",
+                "landing":false},
+                {"url":"https://i.im.ge/2022/09/04/Og76T8.la-fashionale-manager-workspace-pic4-png.png",
+                "landing":false}
+            ]
+        }
+    ]
+}

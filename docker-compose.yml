@@ -1,0 +1,49 @@
+version: '3.8'
+services:
+  mysql_db:
+    image: mysql:5.7
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    env_file: .docker.env
+    ports:
+     - 3308:3306
+    volumes:
+    - db:/var/lib/mysql
+    networks: 
+      - nodejss
+
+  adminer_container:
+    image: adminer
+    restart: always
+    links:
+      - mysql_db:mysql_db
+    environment:
+      ADMINER_DEFAULT_SERVER: mysql_db
+    ports:
+      - 8080:8080
+    networks: 
+      - nodejss
+
+  web:
+    depends_on:
+      - mysql_db
+    build:
+      context: ./
+      target: dev
+    restart: always
+    volumes:
+      - .:/src
+    command: npm run start:dev
+    ports:
+      - 3000:3000
+    environment:
+      NODE_ENV: development
+      DEBUG: nodejs-docker-express:*
+    networks: 
+      - nodejss
+
+volumes:
+  db:
+
+networks:
+  nodejss:

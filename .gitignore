@@ -294,6 +294,7 @@ typings/
 
 # dotenv environment variables file
 .env
+.docker.env
 
 *.DS_Store
 .AppleDouble
